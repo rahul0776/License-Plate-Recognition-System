@@ -15,7 +15,7 @@ We need to identify all the connected regions in the image, using the concept of
 
 This part of the process focuses on identifying and extracting individual characters from the detected license plate using Connected Component Analysis (CCA). The license plate is inverted (black pixels to white and vice versa) to standardize the segmentation process.<br> After labeling connected regions in the binary image, the script identifies regions that satisfy specific height and width criteria based on assumptions about the dimensions of characters relative to the license plate.<br>
 
-Key steps include:<br>
+Key steps include: <br>
 
 Filtering regions: Ensures only regions with dimensions resembling license plate characters are selected.<br>
 Drawing boundaries: Red rectangles are drawn around identified characters for visualization.<br>
